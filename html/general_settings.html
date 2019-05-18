@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/settings.css">
+  <title>Settings</title>
+</head>
+
+<body class="body1">
+<div class="main">
+  <div class="na">
+    <a href="../html/home.html"><i class='fas fa-search' style='font-size:36px'></i></a>
+    <a href="../html/ingredients.html"><i class='fas fa-bread-slice' style='font-size:36px; color: red'></i></a>
+    <a href="../html/recipes.html"><i class='fas fa-hamburger' style='font-size:36px; color:yellow'></i></a>
+    <a href="../index.html"><i class='fas fa-home' style='font-size:36px'></i></a>
+    <a href="../html/wifi.html"><i class='fas fa-wifi' style='font-size:36px'></i></a>
+    <a href="../html/settings.html" class="active"><i class='fas fa-cog' style='font-size:36px'></i></a>
+  </div>
+<div>
+    <table style=" width:90%; margin:auto; margin-left: 10px; padding:20px 10px 20px 10px; text-align:start; font-size: 18px;">
+        <tr>
+        <th style="text-align:start;">
+            <h1 class="h1h1">General Settings</h1>
+        </th>
+        </tr>
+        <tr>
+            <th style="text-align:start;">
+              <button onClick="goBack()"><i class='fas fa-reply-all' style='font-size:36px'></i></button>
+            </th>
+        </tr>
+        <th style="text-align:start;">
+            About Me:
+        </th>
+        <tr>
+            <td>
+                <textarea >
+                    I am a programmer
+
+                </textarea><br/><br/>
+            </td>
+        </tr>
+
+        <th style="text-align:start;">
+            Language:
+        </th>
+        <tr>
+            <td>
+                <select style="width:10%;">
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="German">German</option>
+                </select><br/><br/>
+            </td>
+        </tr>
+
+        <th style="text-align:start;">
+            Units of Calories Measurement:
+        </th>
+        <tr>
+            <td>
+                <select style="width:10%;">
+                    <option value="kcal">kcal</option>
+                    <option value="kj">kj</option>
+                    <option value="any">any</option>
+                </select><br/><br/>
+            </td>
+        </tr>
+
+        <th style="text-align:start;">
+            Recipe Setings
+        </th>
+        <tr>
+            <td>
+                <input type="checkbox">Make your recipe visible to other users
+                <br/>
+                <input type="checkbox">Get randomly recommended recipes
+                <br/>
+                <input type="checkbox">Rate other peoples' recipe
+                <br/><br/>
+            </td>
+        </tr>
+
+        <th style="text-align:start;">
+            Likes and Subscription
+        </th>
+        <tr>
+            <td>
+                <input type="checkbox">Keep all my liked recipes private
+                <br/>
+                <input type="checkbox">Keep all my saved recipes private
+                <br/>
+                <input type="checkbox">Keep all my subscriptions private
+                <br/><br/>
+            </td>
+        </tr>
+
+        <th style="text-align:start;">
+           Notifications
+        </th>
+        <tr>
+            <td>
+                <input type="checkbox">Receive weekly newsletters in your email
+                <br/><br/>
+            </td>
+        </tr>
+
+        <th style="text-align:start;">
+            Sign In
+        </th>
+        <tr>
+            <td>
+                <input type="radio" name="account" value="recipeking">Recipe King
+                <br/>
+                <input type="radio" name="account" value="google">Google
+                <br/>
+                <input type="radio" name="account" value="facebook">Facebook
+                <br/><br/>
+            </td>
+        </tr>
+
+        <tr style="text-align:end;">
+            <td>
+            <button>Save Changes</button>
+            <button>Cancel</button>
+            </td>
+        </tr>
+    </table>
+</div><br><br></div>
+
+
+
+
+</body>
+<script  src="../java/settings.js"></script>
+</html>

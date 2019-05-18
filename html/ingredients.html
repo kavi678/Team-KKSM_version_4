@@ -1,0 +1,128 @@
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/ingredients.css">
+  <title>Ingredients List</title>
+</head>
+
+<body class="body1" onload="init()">
+  <h1 class="body1_h1"></h1>
+  <div class="main">
+  <div class="na">
+    <a href="../html/home.html"><i class='fas fa-search' style='font-size:36px'></i></a>
+    <a href="../html/ingredients.html" class="active"><i class='fas fa-bread-slice' style='font-size:36px; color: red'></i></a>
+    <a href="../html/recipes.html"><i class='fas fa-hamburger' style='font-size:36px; color:yellow'></i></a>
+    <a href="../index.html"><i class='fas fa-home' style='font-size:36px'></i></a>
+    <a href="../html/wifi.html"><i class='fas fa-wifi' style='font-size:36px'></i></a>
+    <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:36px'></i></a>
+  </div>
+
+
+<h1 class="h1h1">Ingredients List</h1>
+
+
+<br>
+
+<br>
+<a href="recommend.html"><button class="rbutton">Recommend Recipes</button></a></div>
+<br><br>
+
+
+      <table id="output1" class="out1">
+          <thead>
+              <tr>
+                  <th>Ingredients</th>
+                  <th>Type</th>
+                  <th>Quantity</th>
+                  <th>Calories(kcal)</th>
+
+
+              </tr>
+              <tr>
+                  <td>Chicken Thigh Fillet</td>
+                  <td>Perisables</td>
+                  <td>1 kg</td>
+                  <td>500</td>
+
+
+              </tr>
+              <tr>
+                  <td>chilli</td>
+                  <td>Frozen</td>
+                  <td>500 grams</td>
+                  <td>200</td>
+
+
+              </tr>
+              <tr>
+                  <td>Fish Sauce</td>
+                  <td>Long-Life</td>
+                  <td>500 ml</td>
+                  <td>350</td>
+
+
+              </tr>
+              <tr>
+                  <td>Onion</td>
+                  <td>Perisables</td>
+                  <td>1.5 Kg</td>
+                  <td>400</td>
+
+
+              </tr>
+
+          </thead>
+          <tbody>
+          </tbody>
+      </table>
+      <br><br><br>
+      <button class="adding" type="button" name="button" onclick="openForm()">Add Ingredients</button>
+      <div id="myForm">
+      <ul class="form-style-1">
+        <li><label for="excersise1" class="day1css">Ingredient <span class="required">*</span></label>
+          <input type="text" name="Exercise" class="field-long" id="excersise1" /></li>
+
+          <li>
+            <label for="muscle1" class="day1css">Type <span class="required">*</span></label>
+            <select name="Muscles" class="field-select" id="muscle1">
+              <option value="Long-Life">Long-Life</option>
+              <option value="Frozen">Frozen</option>
+              <option value="Perisables">Perisables</option>
+              <option value="spices">spices</option>
+            </select>
+          </li>
+          <li>
+            <label for="set1" class="day1css">Quantity <span class="required">*</span></label>
+            <input type="text" name="Sets" class="field-divided" id="set1">
+          </li>
+          <li>
+            <label for="rep1" class="day1css">Calories(kcal) <span class="required">*</span></label>
+            <input type="number" name="Reps" class="field-divided" id="rep1" step="5">
+          </li>
+
+            <li>
+
+              <a href="ingredients.html"><button class="ad1" id="add_data" onclick="add1()" >Add Data</button></a>
+            </li>
+          </ul>
+          <button type="button" class="ad1" onclick="closeForm()">Close</button>
+          <br>
+      </div><br><br>
+      <a href="ingredients.html" class="adding"><button onclick="del1();">Clear all ingredients</button></a><br><br>
+
+        <br><br><br>
+
+
+
+
+
+</body>
+<script  src="../java/ingredients.js"></script>
+<script  src="../java/javahome.js"></script>
+
+</html>

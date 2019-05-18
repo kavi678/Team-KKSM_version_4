@@ -1,0 +1,71 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/ingredients.css">
+  <title>Filter</title>
+</head>
+
+<body class="body1">
+  <h1 class="body1_h1"></h1>
+
+
+<div class="main">
+  <div class="na">
+    <a href="../html/home.html"><i class='fas fa-search' style='font-size:36px'></i></a>
+    <a href="../html/ingredients.html" class="active"><i class='fas fa-bread-slice' style='font-size:36px; color: red'></i></a>
+    <a href="../html/recipes.html"><i class='fas fa-hamburger' style='font-size:36px; color:yellow'></i></a>
+    <a href="../index.html"><i class='fas fa-home' style='font-size:36px'></i></a>
+    <a href="../html/wifi.html"><i class='fas fa-wifi' style='font-size:36px'></i></a>
+    <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:36px'></i></a></div>
+
+<h1 class="h1h1">Filters</h1>
+<button onClick="goBack()"><i class='fas fa-reply-all' style='font-size:36px'></i></button>
+
+
+<div class="filter">
+      <ul class="form-style-1">
+        <li><label for="rep1" class="day1css">People</label>
+          <input type="number" name="Exercise" class="field-divided" id="excersise1" step="1" value= "4" /></li>
+
+          <li>
+            <label for="muscle1" class="day1css">Food Type</label>
+            <select name="Muscles" class="field-select" id="muscle1">
+              <option value="Any">Any</option>
+              <option value="Breakfast">Breakfast</option>
+              <option value="Lunch">Lunch</option>
+              <option value="Dinner">Dinner</option>
+
+            </select>
+          </li>
+          <li>
+            <label for="set1" class="day1css">Specification </label>
+            <select name="Muscles" class="field-select" id="muscle1">
+              <option value="Normal">Normal</option>
+              <option value="Healthy">Healthy</option>
+            <option value="Gluten-Free">Gluten-Free</option>
+              <option value="Vegeterian">Vegeterian</option>
+              <option value="Vegan">Vegan</option>
+
+            </select>
+          </li>
+          <li>
+            <label for="rep1" class="day1css">Calories(kcal)</label>
+            <input type="number" name="Reps" class="field-divided" id="rep1" step="5">
+          </li>
+              <br><br>
+              </div>
+
+
+  <button class="rrbutton" onClick='searchRecipes' ><a href="recommend.html"><img class="rimg" src="../images/rbutton.png" alt="hbutton"></a></button>
+<br><br><br></div>
+
+
+
+
+
+</body>
+<script  src="../java/ingredients.js"></script>
+</html>

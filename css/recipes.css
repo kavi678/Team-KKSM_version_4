@@ -1,0 +1,246 @@
+html {
+  background-image: url("homefood.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: auto;
+}
+.body1 {
+  width:100%;
+  padding: 10% 0;
+  margin: auto;
+
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 10%;
+  margin-left: 50%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.btn {
+  background-color: #A9A9A9;
+  border: none;
+  color: white;
+  font-size: 100%;
+  cursor: pointer;
+  padding: 5%;
+  float: left;
+  margin-left: 10%;
+}
+.btn1 {
+  background-color: #A9A9A9;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10%;
+
+}
+.h1h1{
+  color: white;
+  font-size: 300%;
+  font-weight: bolder;
+  background-color: #404040;
+  text-align: center;
+  width: 85%;
+  margin-left: 10%;
+  padding: 0 1px;
+}
+.adding{
+  background-color: gray;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  font-size: 32px;
+  padding: 15px;
+
+}
+.cardcont {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+
+}
+.cardcont .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 48%;
+  float: left;
+  padding:1%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: white;
+  text-align: left;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.hhh111{
+  font-size: 70px;
+}
+.out1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+
+
+}
+
+.out1 td, .out1 th {
+    border: 1px solid #ddd;
+    padding: 15px 5px;
+
+}
+.out1 td {
+  background-color: #f2f2f2;
+}
+
+.out1 tr:{background-color: #f2f2f2;}
+
+.out1 tr:hover {background-color: #f2f2f2;}
+
+.out1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+}
+.out1{
+  margin: auto;
+}
+.out1 B{
+  font-size: 30px;
+}
+#myForm{
+  display: none;
+  margin: auto;
+  width:95%;
+  height:auto;
+  background-color: gray;
+  color: white;
+}
+.field-long{
+    width: 90%;
+}
+.field-22long{
+    width: 90%;
+    height:30px;
+}
+.field-22divided{
+  width: 90%;
+  height: 50px;
+}
+.ad1 {
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    margin-left: 15%;
+}
+.required{
+    color:red;
+}
+#kkk333{
+  display: none;
+}
+.pfor {
+  padding: 10px 10px;
+}
+
+
+#myInput {
+  width: 95%;
+  height: 30px;
+  margin-left:2%;
+}
+.adding {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  width: 40%;
+  margin: auto;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+.na {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.na a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 10px;
+
+}
+
+.na a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.na a.active {
+  background-color: gray;
+  color: white;
+}
