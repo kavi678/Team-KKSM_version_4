@@ -5,18 +5,15 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-window.onscroll = function() {myFunction()};
-
-var lnav = document.getElementById("lnav");
-var sticky = lnav.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    lnav.classList.add("sticky")
-  } else {
-    lnav.classList.remove("sticky");
-  }
+function openmyr() {
+  document.getElementById("o1").style.display = "block";
+  document.getElementById("o2").style.display = "none";
 }
+function openmyf() {
+  document.getElementById("o2").style.display = "block";
+  document.getElementById("o1").style.display = "none";
+}
+
 var Day2Array = [];
 // following init fuction will always run when the windw is open. it will take all the items from the local storage and give value to post on a page
 function init() {
@@ -139,4 +136,91 @@ function yFunction() {
 }
 function goBack() {
     window.history.back();
+}
+function openForm1() {
+  document.getElementById("z1").style.display = "block";
+}
+
+function closeForm1() {
+  document.getElementById("z1").style.display = "none";
+}
+function openForm2() {
+  document.getElementById("z2").style.display = "block";
+}
+
+function closeForm2() {
+  document.getElementById("z2").style.display = "none";
+}
+function openForm3() {
+  document.getElementById("z3").style.display = "block";
+}
+
+function closeForm3() {
+  document.getElementById("z3").style.display = "none";
+}
+function openForm4() {
+  document.getElementById("z4").style.display = "block";
+}
+
+function closeForm4() {
+  document.getElementById("z4").style.display = "none";
+}
+function openForm5() {
+  document.getElementById("z5").style.display = "block";
+}
+
+function closeForm5() {
+  document.getElementById("z5").style.display = "none";
+}
+function openForm6() {
+  document.getElementById("z6").style.display = "block";
+}
+
+function closeForm6() {
+  document.getElementById("z6").style.display = "none";
+}
+function openForm7() {
+  document.getElementById("z7").style.display = "block";
+}
+
+function closeForm7() {
+  document.getElementById("z7").style.display = "none";
+}
+function openForm8() {
+  document.getElementById("z8").style.display = "block";
+}
+
+function closeForm8() {
+  document.getElementById("z8").style.display = "none";
+}
+function openForm9() {
+  document.getElementById("z9").style.display = "block";
+}
+
+function closeForm9() {
+  document.getElementById("z9").style.display = "none";
+}
+function openForm10() {
+  document.getElementById("z10").style.display = "block";
+}
+
+function closeForm10() {
+  document.getElementById("z10").style.display = "none";
+}
+function yyFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInp");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("ott1");
+    li = ul.getElementsByClassName("x1");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("B")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+
 }

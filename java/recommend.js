@@ -5,19 +5,8 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-window.onscroll = function() {myFunction()};
 
-var lnav = document.getElementById("lnav");
-var sticky = lnav.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    lnav.classList.add("sticky")
-  } else {
-    lnav.classList.remove("sticky");
-  }
-}
-function yFunction() {
+function yyFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -113,4 +102,78 @@ function oForm() {
 
 function cForm() {
   document.getElementById("myForm").style.display = "none";
+}
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+
+function goBack() {
+    window.history.back();
+}
+function ooff1() {
+  document.getElementById("k1").innerHTML = "Recipe added to favourites";
+}
+function ooff2() {
+  document.getElementById("k2").innerHTML = "Recipe added to favourites";
+}
+function ooff3() {
+document.getElementById("k3").innerHTML = "Recipe added to favourites";
+}
+function ooff4() {
+  document.getElementById("k4").innerHTML = "Recipe added to favourites";
+}
+function ooff5() {
+  document.getElementById("k5").innerHTML = "Recipe added to favourites";
+}
+function ooff6() {
+  document.getElementById("k6").innerHTML = "Recipe added to favourites";
+}
+function ooff7() {
+  document.getElementById("k7").innerHTML = "Recipe added to favourites";
+}
+function ooff8() {
+  document.getElementById("k8").innerHTML = "Recipe added to favourites";
+}
+function ooff9() {
+  document.getElementById("k9").innerHTML = "Recipe added to favourites";
+}
+function ooff10() {
+  document.getElementById("k10").innerHTML = "Recipe added to favourites";
+}
+
+function oo1() {
+  document.getElementById("k1").innerHTML = "Recipe removed from favourites";
+}
+function oo2() {
+  document.getElementById("k2").innerHTML = "Recipe removed from favourites";
+}
+function oo3() {
+  document.getElementById("k3").innerHTML = "Recipe removed from favourites";
+}
+function oo4() {
+  document.getElementById("k4").innerHTML = "Recipe removed from favourites";
+}
+function oo5() {
+document.getElementById("k5").innerHTML = "Recipe removed from favourites";
+}
+function oo6() {
+  document.getElementById("k6").innerHTML = "Recipe removed from favourites";
+}
+function oo7() {
+  document.getElementById("k7").innerHTML = "Recipe removed from favourites";
+}
+function oo8() {
+  document.getElementById("k8").innerHTML = "Recipe removed from favourites";
+}
+function oo9() {
+  document.getElementById("k9").innerHTML = "Recipe removed from favourites";
+}
+function oo10() {
+  document.getElementById("k10").innerHTML = "Recipe removed from favourites";
 }

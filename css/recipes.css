@@ -135,6 +135,17 @@ html {
 
 
 }
+.outppp1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #333;
+    padding: 5px 0;
+    color: white;
+
+
+}
+
 
 .out1 td, .out1 th {
     border: 1px solid #ddd;
@@ -204,6 +215,11 @@ html {
   height: 30px;
   margin-left:2%;
 }
+#myInp {
+  width: 95%;
+  height: 30px;
+  margin-left:2%;
+}
 .adding {
   padding: 10px;
   border-radius: 10px;
@@ -224,6 +240,12 @@ a {
   width: 100%;
   color: white;
 }
+.whole {
+  background-color: #333;
+  width: 90%;
+  color: white;
+  margin: auto;
+}
 
 .na a {
   float: left;
@@ -234,6 +256,16 @@ a {
   padding: 0 4px;
   padding-top: 8px;
 }
+.whole .pfor {
+  float: left;
+  display: block;
+  background-color: inherit;
+  color: white;
+  text-align: center;
+  width: 40%;
+  padding: 15px;
+}
+
 
 .na a:hover {
   background: #f1f1f1;
@@ -243,4 +275,52 @@ a {
 .na a.active {
   background-color: gray;
   color: white;
+}
+#o1 {
+  background-color: #333;
+  display: block;
+}
+#o2 {
+  background-color: #333;
+  display: none;
+}
+#z1, #z2, #z3, #z4, #z5, #z6, #z7, #z8, #z9, #z10 {
+  display: none;
+}
+#of1, #of2, #of3,#of4, #of5, #of6, #of7, #of8, #of9, #of10{
+  display:;
+}
+.l1 {
+  display: none;
+}
+
+.out101 .x1 {
+  background-color: #484848;
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+  margin-top: 5px;
+
+}
+
+.out101 .x1 h1{
+  display:block;
+  float: left;
+  width: 48%;
+}
+.x1 .of1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #484848;
+  padding: 5px;
+}
+.x1 h1{
+  font-size: 18px;
+
+}
+.of1 > h1 {
+  padding: 5px 50px;
+  text-align: center;
+
+
 }

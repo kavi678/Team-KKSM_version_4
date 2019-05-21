@@ -2,9 +2,9 @@
 .out1 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
     background-color: #333;
-    padding: 20px;
+    padding: 20px 0;
     color: white;
     border-radius: 20px;
 
@@ -33,6 +33,9 @@
 }
 .out1{
   margin: auto;
+}
+.out1 .x1{
+  margin-top: 10px;
 }
 #myForm{
   display: none;
@@ -91,11 +94,36 @@
   display: none;
 }
 .x1 {
-  background-color: gray;
-  width: 90%;
-  padding: 10px;
-  border-radius: 20px;
+  background-color: #484848;
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+
 }
+
+.out1 .x1 h1{
+  display:block;
+  float: left;
+  width: 48%;
+}
+.x1 .of1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #484848;
+  padding: 5px;
+}
+.x1 h1{
+  font-size: 18px;
+
+}
+.of1 > h1 {
+  padding: 5px 50px;
+  text-align: center;
+
+
+}
+
+
 .body1 {
   width:100%;
   padding: 10% 0;
@@ -172,13 +200,13 @@
 }
 .h1h1{
   color: white;
-  font-size: 300%;
+  font-size: 270%;
   font-weight: bolder;
   background-color: #404040;
   text-align: center;
   width: 80%;
   margin-left: 10%;
-  padding: 0 1px;
+  padding: 0 5px;
 }
 .na {
   overflow: hidden;
@@ -289,4 +317,10 @@ select{
 }
 .form-style-1 .required{
     color:red;
+}
+.ohh {
+  background-color: #333;
+}
+.y1 li{
+  text-align: left;
 }

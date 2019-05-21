@@ -23,12 +23,20 @@
     <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:36px'><p style="font-size: 15px">Settings</p></i></a>
   </div>
 <div class="content">
-<br><br><br><br><br>
+<br>
 <h1 class="h1h1">My Recipes</h1><br><br>
 
-  <input type="text" id="myInput" onkeyup="yFunction()" placeholder="Search for Recipes.." title="Type in a name">
-  <br><br>
-  <a onclick="openForm()"><div class="adding" type="button" name="button" >Add Recipes</div></a><br><br>
+
+
+
+  <div class="whole">
+  <a class="pfor" onclick="openmyr()">Added Recipes</a>
+  <a class="pfor" onclick="openmyf()">Favourite Recipies</a>
+  </div><br><br><br>
+<div id="o1" class="ou1"><br>
+  <p style="color: white; font-size: 20px; text-align: center">Added Recipies</p>
+  <input type="text" id="myInput" onkeyup="yFunction()" placeholder="Search for Recipes.." title="Type in a name"><br><br>
+  <a onclick="openForm()"><div class="adding" type="button" name="button" >Add Recipes</div></a>
   <div id="myForm">
   <div class="form-style-1">
     <p class="pfor"><label for="excersise1" class="day1css"> Recipe Name <span class="required">*</span></label><br>
@@ -59,11 +67,256 @@
       <button type="button" class="ad1" onclick="closeForm()">Close</button>
       <br>
   </div><br><br></div>
-<div id="output1" class="out1">
+  <div id="output1" class="out1"></div>
+
+
 </div>
+<div id="o2"><br><p style="color: white; font-size: 20px; text-align: center">Favourite Recipies</p><div id="outpu1" class="outppp1">
+  <input type="text" id="myInp" onkeyup="yyFunction()" placeholder="Search for Recipes.." title="Type in a name">
+  <br><br>
+  <div id="ott1" class="out101">
+    <div class ="x1"><a onclick="openForm1()"> <div class="of1"><h1 style="width: 70%"> Sticky Vietnamese caramel chicken </h1><h1 style="width: 30%"><i class='fas fa-sort-down' style='font-size:36px'></i></h1></div></a>
+
+
+    <div id ="z1" class="y1">
+    <B class="l1"> chicken thigh fillet onion chilli fish sauce coriander Sticky Vietnamese caramel chicken</B>
+    <div class=bbc><p id="k1"></p><button type="button" class="ad1" onclick="closeForm1()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
+    <ul><li> Prep time: 30 minutes </li>
+    <li> Cook time: 10 minutes </li>
+    <li> Serves: 4</li>
+
+    </ul>
+
+    <p>Ingredients</p>
+
+    <ul>
+
+    <li>2 tablespoons peanut oil</li>
+    <li>6 chicken thigh fillets</li>
+    <li>450g packet 2 1/2 minute jasmine rice</li>
+    <li>45g tub Vietnamese lemongrass and kaffir lime paste</li>
+    <li>1/4 cup kecap manis</li>
+    <li>2 tablespoons brown sugar</li>
+    <li>2 teaspoons fish sauce</li>
+    <li>2 tablespoons lime juice</li>
+    <li>1 Lebanese cucumber</li>
+    <li>1 long red chilli</li>
+    <li>1 green onion</li>
+    <li>1 bunch baby choy sum, trimmed</li>
+    <li>Fresh coriander sprigs, to serve</li>
+
+    </ul>
+
+    <p>Directions</p>
+
+    <ol>
+
+    <li>Step 1: Heat half the oil in a large frying pan over medium-high heat. Cut chicken in half. Cook chicken, turning, for 4 to 5 minutes or until browned all over and almost cooked through.</li>
+    <li>Step 2: Meanwhile, cook rice following packet directions. Combine Vietnamese paste, kecap manis, sugar, fish sauce and lime juice in a jug. Set aside.</li>
+    <li>Step 3: Finely chop cucumber and thinly slice chilli and green onion. Combine cucumber, chilli and onion in a bowl. Set aside.</li>
+    <li>Step 4: Reduce heat to medium-low. Pour sauce mixture over chicken in pan. Turn to coat. Simmer for 2 minutes.</li>
+    <li>Step 5: Meanwhile, heat a wok over high heat. Add remaining oil, swirling to coat. Cut stems from choy sum leaves. Add stems to wok. Stir-fry for 30 seconds. Add leaves. Stir-fry for 30 seconds or until just wilted. Turn chicken in sauce. Simmer for a further 30 seconds.</li>
+    <li>Step 6: Divide rice, choy sum, chicken and sauce among serving bowls. Sprinkle with cucumber mixture and top with coriander sprigs. Serve.</li>
+
+    </ol></div></div>
+
+
+
+    <!-- https://www.taste.com.au/recipes/marmalade-pork-pistachio-couscous-salad/5ltreog2?r=recipes/emergencydinners&c=ui84wm33/Emergency%20dinners -->
+
+    <div id ="of2" class ="x1"><a onclick="openForm2()"> <div class="of1"><h1 style="width: 70%"> Marmalade pork with pistachio couscous salad </h1><h1 style="width: 30%"><i class='fas fa-sort-down' style='font-size:36px'></i></h1></div></a>
+
+
+    <div id ="z2" class="y1">
+    <B class="l1"> olive oil loin medallions couscous beans orange parsley leaves Marmalade pork with pistachio couscous salad</B>
+    <div class=bbc><p id="k2"></p><button type="button" class="ad1" onclick="closeForm2()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
+
+    <ul>
+    <li> Prep time: 20 minutes</li>
+    <li> Cook time: 10 minutes</li>
+    <li> Serves: 4</li>
+
+    </ul>
+
+    <p>Ingredients</p>
+
+    <ul>
+
+    <li>2 tablespoons extra virgin olive oil</li>
+    <li>3 teaspoons mild Moroccan seasoning</li>
+    <li>4 large pork loin medallions</li>
+    <li>80g packet pistachio kernels</li>
+    <li>2 x 100g packets roasted vegetable couscous</li>
+    <li>150g green beans</li>
+    <li>2 tablespoons sweet orange marmalade</li>
+    <li>1/4 cup classic vinaigrette dressing</li>
+    <li>1/4 cup fresh flat-leaf parsley leaves</li>
+    <li>1 green onion</li>
+
+    </ul>
+
+    <p>Directions</p>
+
+    <ol>
+
+    <li>Step 1:Boil kettle.</li>
+    <li>Step 2: Combine half the oil with the seasoning in a shallow dish. Add pork. Turn to coat. Heat a large frying pan over medium-high heat.</li>
+    <li>Step 3: Place pistachios in a small frying pan over medium-high heat. Cook, stirring occasionally, until golden and toasted. Transfer to a plate.</li>
+    <li>Step 4: Cook pork in large frying pan, turning, for 5 to 6 minutes or until browned.</li>
+    <li>Step 5: Meanwhile, place couscous in a large heatproof bowl. Add 1 1/3 cups boiling water. Stir well with a fork.</li>
+    <li>Step 6: Heat remaining oil in same small frying pan over medium-high heat. Trim ends from beans. Add to pan. Cook, tossing occasionally, until bright green and just tender.</li>
+    <li>Step 7: Brush pork with marmalade. Turn to coat, brushing with a little more marmalade. Fluff couscous with a fork. Add dressing, pistachios, parsley and sliced onion. Season with salt and pepper. Toss to combine. Serve pork on couscous, with beans.</li>
+
+    </ol>
+
+    </div></div>
+    <div class ="x1"><a onclick="openForm3()"> <div class="of1"><h1 style="width: 70%"> Chicken schnitzel with slaw </h1><h1 style="width: 30%"><i class='fas fa-sort-down' style='font-size:36px'></i></h1></div></a>
+
+
+    <div id ="z3" class="y1">
+    <B class="l1"> chicken thigh fillet onion chilli fish sauce coriander Chicken schnitzel with slaw </B>
+    <div class=bbc><p id="k3"></p><button type="button" class="ad1" onclick="closeForm3()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
+    <ul>
+
+    <li> Prep time: 10 minutes</li>
+    <li> Cook time: 10 minutes</li>
+    <li> Serves: 4</li>
+
+    </ul>
+
+    <p>Ingredients</p>
+
+    <ul>
+
+    <li>80g sachet garlic and herb schnitzel mix</li>
+    <li>2 teaspoons Mexican chilli powder</li>
+    <li>1/2 cup buttermilk</li>
+    <li>500g chicken schnitzel (uncrumbed)</li>
+    <li>2 tablespoons extra virgin olive oil</li>
+    <li>1/4 cup plain Greek-style yoghurt</li>
+    <li>2 teaspoons chipotle hot sauce</li>
+    <li>2 tablespoons lime juice</li>
+    <li>250g packet rainbow slaw</li>
+    <li>1/4 cup fresh coriander leaves</li>
+    <li>Salad leaves, to serve</li>
+
+    </ul>
+
+    <p>Directions</p>
+
+    <ol>
+
+    <li>Step 1: Combine schnitzel mix and chilli powder in a bowl. Season with salt and pepper. Place buttermilk in a separate bowl.</li>
+    <li>Step 2: Working with 1 piece of chicken at a time, dip chicken in buttermilk, then toss in breadcrumb mixture to coat evenly. Place on a plate. </li>
+    <li>Step 3: Heat oil in a large frying pan over medium-high heat. Cook chicken, in 2 batches, turning for 3 to 4 minutes or until golden and cooked through. Drain on paper towel.</li>
+    <li>Step 4: Meanwhile, combine yoghurt with hot sauce and lime juice. Place slaw and coriander leaves in a large bowl. Add yoghurt dressing. Toss well to combine. Serve chicken with slaw and salad.</li>
+
+    </ol>
+
+    </div></div>
+    <div class ="x1"><a onclick="openForm6()"> <div class="of1"><h1 style="width: 70%"> Easy chicken parmigiana </h1><h1 style="width: 30%"><i class='fas fa-sort-down' style='font-size:36px'></i></h1></div></a>
+
+
+    <div id ="z6" class="y1">
+      <B class="l1"> chicken thigh fillet onion chilli fish sauce coriander Easy chicken parmigiana </B>
+      <div class=bbc><p id="k6"></p><button type="button" class="ad1" onclick="closeForm6()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
+      <ul>
+
+<li> Prep time: 20 minutes</li>
+<li> Cook time: 25 minutes</li>
+<li> Serves: 4</li>
+
+</ul>
+
+<p>Ingredients</p>
+
+<ul>
+
+<li>2 teaspoons finely grated lemon rind</li>
+<li>1 garlic clove, crushed</li>
+<li>1 teaspoon Masterfoods® Oregano Leaves</li>
+<li>1 cup panko breadcrumbs</li>
+<li>1/4 cup plain flour</li>
+<li>1 egg, lightly beaten</li>
+<li>1 tablespoon milk</li>
+<li>2 chicken breast fillets, halved horizontally</li>
+<li>1/4 cup extra virgin olive oil</li>
+<li>1 brown onion, finely chopped</li>
+<li>2 garlic cloves, crushed, extra</li>
+<li>700g bottle tomato passata</li>
+<li>2 tablespoons chopped fresh basil, plus extra to serve</li>
+<li>1/2 x 250g ball buffalo-style mozzarella, sliced</li>
+<li>1/3 cup finely grated parmesan</li>
+<li>Salad leaves, to serve</li>
+
+
+</ul>
+
+<p>Directions</p>
+
+<ol>
+
+<li>Step 1: Combine rind, garlic and oregano in a large shallow bowl. Add breadcrumbs. Season with salt and pepper. Mix well. Place flour in a bowl. Whisk egg and milk in a separate shallow bowl. Working with 1 chicken piece at a time, toss in flour. Dip in egg mixture, then press in breadcrumb mixture to coat. Transfer to a plate.</li>
+<li>Step 2: Heat 2 tablespoons oil in a large frying pan over medium-high heat. Cook chicken for 4 to 5 minutes each side or until golden. Transfer to a plate.</li>
+<li>Step 3: Heat remaining oil in pan. Add onion. Cook, stirring, for 5 minutes or until softened. Add extra garlic. Cook for 1 minute or until fragrant. Stir in passata and basil. Season. Bring to a simmer. Simmer for 3 to 4 minutes or until slightly thickened.</li>
+<li>Step 4: Preheat grill on medium-high. Spoon half the passata mixture onto a baking tray. Top with chicken. Spoon over remaining passata mixture. Top chicken with mozzarella and parmesan. Grill for 4 to 5 minutes or until cheese is melted and golden. Stand for 2 minutes. Top with extra basil. Serve with salad leaves.</li>
+
+</ol>
+
+      </div></div>
+      <div class ="x1"><a onclick="openForm7()"> <div class="of1"><h1 style="width: 70%"> Aussie-style beef and salad tacos </h1><h1 style="width: 30%"><i class='fas fa-sort-down' style='font-size:36px'></i></h1></div></a>
+
+
+      <div id ="z7" class="y1">
+        <B class="l1"> beef tacos coriander tomatoes lettuce cheese Aussie-style beef and salad tacos</B>
+        <div class=bbc><p id="k7"></p><button type="button" class="ad1" onclick="closeForm7()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
+        <ul>
+
+<li> Prep time: 15 minutes</li>
+<li> Cook time: 20 minutes</li>
+<li> Serves: 10</li>
+
+</ul>
+
+<p>Ingredients</p>
+
+<ul>
+
+<li>1 tablespoon olive oil</li>
+<li>1 medium brown onion, finely chopped</li>
+<li>2 teaspoons ground cumin</li>
+<li>2 teaspoons ground coriander</li>
+<li>1 teaspoon paprika</li>
+<li>1/4 teaspoon Masterfoods Ground Cayenne Pepper</li>
+<li>500g beef mince</li>
+<li>400g can crushed tomatoes</li>
+<li>10 jumbo taco shells</li>
+<li>4 large iceberg lettuce leaves, shredded</li>
+<li>2 medium tomatoes, chopped</li>
+<li>1 1/2 cups grated tasty cheese</li>
+
+</ul>
+
+<p>Directions</p>
+
+<ol>
+
+<li>Step 1: Preheat oven to 180°C/160°C fan-forced.</li>
+<li>Step 2: Heat oil in a large frying pan over medium-high heat. Add onion. Cook, stirring, for 3 minutes or until softened. Add cumin, coriander, paprika and cayenne pepper. Cook, stirring, for 30 seconds or until fragrant. Add mince. Cook, stirring with a wooden spoon to break up mince, for 8 minutes or until browned. Add crushed tomato. Cook, stirring occasionally, for 5 minutes or until sauce has thickened.</li>
+<li>Step 3: Meanwhile, heat taco shells following packet directions. Divide beef mixture and salad tacos evenly between taco shells. Top with lettuce, chopped tomato and cheese. Serve.</li>
+
+
+</ol>
+
+        </div></div><br></div>
+              <div class ="x1"> <h1 style= "text-align: center; font-size: 18px;"> No more Favourite recipes..... </h1></div>
+
+</div></div>
+
+
 
 <br><br><br>
-<a  href="recipes.html" onclick="del2();"><div class="adding" >Clear all ingridients</div></a><br><br></div>
+
 
 
 
