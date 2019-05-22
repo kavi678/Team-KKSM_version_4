@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+html {
+  background-image: url("homefood.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: auto;
+}
 .out1 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -210,11 +219,12 @@
 }
 .na {
   overflow: hidden;
-  background-color: #333;
+  background-color: #002633;
   position: fixed;
   bottom: 0;
   width: 100%;
   color: white;
+  height: 80px;
 }
 
 .na a {
@@ -223,8 +233,8 @@
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
-  padding: 0 4px;
-  padding-top: 8px;
+  padding: 8px 4px;
+
 
 }
 
@@ -234,7 +244,7 @@
 }
 
 .na a.active {
-  background-color: gray;
+  background-color:  #008080;
   color: white;
 }
 .form-style-1 {

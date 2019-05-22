@@ -14,29 +14,29 @@
 
 <div class="main">
   <div class="na">
-    <a href="../index.html"><i class='fas fa-home' style='font-size:36px'><p style="font-size: 15px">Home</p></i></a>
-    <a href="../html/home.html"><i class='fas fa-search' style='font-size:36px'><p style="font-size: 15px">Search</p></i></a>
-    <a href="../html/ingredients.html"><i class='fas fa-bread-slice' style='font-size:36px; color: darkorange'><p style="font-size: 15px">Ingredients</p></i></a>
-    <a href="../html/recipes.html" class="active"><i class='fas fa-hamburger' style='font-size:36px; color:yellow'><p style="font-size: 15px">Recipes</p></i></a>
+    <a href="../index.html"><i class='fas fa-home' style='font-size:35px'><p style="font-size: 12px">Home</p></i></a>
+    <a href="../html/home.html"><i class='fas fa-search' style='font-size:35px'><p style="font-size: 12px">Search</p></i></a>
+    <a href="../html/ingredients.html"><i class='fas fa-bread-slice' style='font-size:35px; color: darkorange'><p style="font-size: 12px">Ingredients</p></i></a>
+    <a href="../html/recipes.html" class="active"><i class='fas fa-hamburger' style='font-size:35px; color:yellow'><p style="font-size: 12px">Recipes</p></i></a>
 
-    <a href="../html/wifi.html"><i class='fas fa-wifi' style='font-size:36px'><p style="font-size: 15px">Connect</p></i></a>
-    <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:36px'><p style="font-size: 15px">Settings</p></i></a>
+    <a href="../html/wifi.html"><i class='fas fa-wifi' style='font-size:35px'><p style="font-size: 12px">Connect</p></i></a>
+    <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:35px'><p style="font-size: 12px">Settings</p></i></a>
   </div>
 <div class="content">
 <br>
-<h1 class="h1h1">My Recipes</h1><br><br>
+<h1 class="h1h1" style="border-radius: 20px; background-color:#002633" >My Recipes</h1><br><br>
 
 
 
 
   <div class="whole">
-  <a class="pfor" onclick="openmyr()">Added Recipes</a>
-  <a class="pfor" onclick="openmyf()">Favourite Recipies</a>
+  <a class="pfor" onclick="openmyr()" style="background-color:#0059b3">Added Recipes</a>
+  <a class="pfor" onclick="openmyf()" style="background-color:#0088cc">Favourite Recipies</a>
   </div><br><br><br>
-<div id="o1" class="ou1"><br>
-  <p style="color: white; font-size: 20px; text-align: center">Added Recipies</p>
+<div id="o1" class="ou1" style="background-color:#d6d6c2"><br>
+  <p style="color: black; font-size: 28px; text-align: center">Added Recipies</p>
   <input type="text" id="myInput" onkeyup="yFunction()" placeholder="Search for Recipes.." title="Type in a name"><br><br>
-  <a onclick="openForm()"><div class="adding" type="button" name="button" >Add Recipes</div></a>
+  <a onclick="openForm()"><div class="adding" type="button" name="button" style="background-color:#004d4d">Add Recipes</div></a><br>
   <div id="myForm">
   <div class="form-style-1">
     <p class="pfor"><label for="excersise1" class="day1css"> Recipe Name <span class="required">*</span></label><br>
@@ -71,10 +71,10 @@
 
 
 </div>
-<div id="o2"><br><p style="color: white; font-size: 20px; text-align: center">Favourite Recipies</p><div id="outpu1" class="outppp1">
+<div id="o2" style="background-color:#d6d6c2"><br><p style="color: black; font-size: 30px; text-align: center">Favourite Recipies</p><div id="outpu1" class="outppp1" style="background-color:#d6d6c2">
   <input type="text" id="myInp" onkeyup="yyFunction()" placeholder="Search for Recipes.." title="Type in a name">
   <br><br>
-  <div id="ott1" class="out101">
+  <div id="ott1" class="out101" style="width:90%; margin:auto">
     <div class ="x1"><a onclick="openForm1()"> <div class="of1"><h1 style="width: 70%"> Sticky Vietnamese caramel chicken </h1><h1 style="width: 30%"><i class='fas fa-sort-down' style='font-size:36px'></i></h1></div></a>
 
 
@@ -309,7 +309,7 @@
 </ol>
 
         </div></div><br></div>
-              <div class ="x1"> <h1 style= "text-align: center; font-size: 18px;"> No more Favourite recipes..... </h1></div>
+              <div class ="x1"> <h1 style= "text-align: center; font-size: 18px; color:black"> No more Favourite recipes..... </h1></div>
 
 </div></div>
 
