@@ -339,3 +339,25 @@ select{
   background-color: gray;
   color: white;
 }
+.bv {
+  padding: 5px;
+  font-size: 25px;
+}
+.pd {
+  font-weight: bold;
+  font-size: 25px;
+}
+#cc11 {
+  background-color: #333;
+  padding: 10px;
+  margin: auto;
+  color: white;
+  display: none;
+  width: 50%;
+}
+#cc11 p {
+  font-size: 25px;
+}
+#hideing {
+  display: none;
+}
