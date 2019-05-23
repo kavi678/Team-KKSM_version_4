@@ -239,7 +239,7 @@ a {
   bottom: 0;
   width: 100%;
   color: white;
-  height: 80px;
+  height: 12%;
 }
 .whole {
   background-color: #333;
@@ -254,7 +254,9 @@ a {
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
-  padding: 8px 6px;
+  width: 16.5%;
+  padding: 4% 0;
+
 
 }
 .whole .pfor {
@@ -276,7 +278,7 @@ a {
 .na a.active {
   background-color:  #008080;
   color: white;
-  padding: 8px 12px;
+
 }
 #o1 {
   background-color: #333;
