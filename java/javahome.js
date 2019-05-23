@@ -62,7 +62,7 @@ const endpoint = 'https://api.edamam.com/search?q='+searchM+'&app_id=53c99899&ap
   }
      reset();
 
-     for(var i = 0; i < data.hits.length; i++){
+     for(var i = 0; i < 10; i++){
        //set the vars to their respective locations in JSON
         label = data.hits[i].recipe["label"];
         image = data.hits[i].recipe["image"];
@@ -73,6 +73,7 @@ const endpoint = 'https://api.edamam.com/search?q='+searchM+'&app_id=53c99899&ap
 
        $('.displaySearch').append(results);
      }
+
 
      document.getElementById('searchBox').textContent = '';
 
