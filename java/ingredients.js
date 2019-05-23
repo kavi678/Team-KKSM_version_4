@@ -18,6 +18,7 @@ function myFunction() {
   }
 }
 var Day1Array = [];
+
 // following init fuction will always run when the windw is open. it will take all the items from the local storage and give value to post on a page
 function init() {
   if (localStorage.Add1) {
@@ -30,6 +31,7 @@ function init() {
 
       }
   }
+
 
 }
 // add function will take the item from the text input and stores that values in a specific key named as Day1Array.
@@ -91,3 +93,7 @@ function closeForm1() {
   document.getElementById("hideing").style.display="block";
   document.getElementById("hidesen").style.display="none";
 }
+
+// following init fuction will always run when the windw is open. it will take all the items from the local storage and give value to post on a page
+
+// add function will take the item from the text input and stores that values in a specific key named as Day1Array.
