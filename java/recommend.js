@@ -177,3 +177,23 @@ function oo9() {
 function oo10() {
   document.getElementById("k10").innerHTML = "Recipe removed from favourites";
 }
+function mFunct() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+function mFunct2() {
+  var popup2 = document.getElementById("myPopup2");
+  popup2.classList.toggle("show2");
+}
+function mFunct3() {
+  var popup3 = document.getElementById("myPopup3");
+  popup3.classList.toggle("show3");
+}
+function mFunct4() {
+  var popup4 = document.getElementById("myPopup4");
+  popup4.classList.toggle("show4");
+}
+function mFunct5() {
+  var popup5 = document.getElementById("myPopup5");
+  popup5.classList.toggle("show5");
+}
