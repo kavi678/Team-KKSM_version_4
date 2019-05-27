@@ -5,18 +5,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-window.onscroll = function() {myFunction()};
 
-var lnav = document.getElementById("lnav");
-var sticky = lnav.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    lnav.classList.add("sticky")
-  } else {
-    lnav.classList.remove("sticky");
-  }
-}
 var Day1Array = [];
 
 // following init fuction will always run when the windw is open. it will take all the items from the local storage and give value to post on a page
